@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 9d3a15aa67257aa70f00755131dbc088645eed70 Changes
-SHA1 0902de9de37fb35bc456303a176539ee42894318 Changes.ttl
-SHA1 57b644e1f41c331d7d47eeffa343f79d1331f679 Changes.xml
+SHA1 9c74a499b300cdcce504fb5f741ae930d20f9b7a Changes
+SHA1 025a15e0593866d60c32c06e2d01c2eb7669071a Changes.ttl
+SHA1 86bc2b5e7e7cc605498e02fba60c67f748c619b1 Changes.xml
 SHA1 262429f29903b3eb2f91de070bc723e8b6f2bfcb MANIFEST
 SHA1 28817ddce2c975015b983e0c5bfe5dfb9f44532a MANIFEST.SKIP
-SHA1 e716a82965f8eb3081749edc3c1772de5b34c9bc META.yml
+SHA1 d0b1c01d0c68ee685e3ad413667d7d65732c5d44 META.yml
 SHA1 41ae69239bf3b7547f1ab19a87d4022b840647f8 Makefile.PL
 SHA1 bd66c55840fb8fe4f2f1639873d797920b897224 README
 SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
@@ -36,15 +36,15 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
 SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 608fe8f018c344d16623f1ee3c4e7eaede93c834 lib/Module/Install/Admin/DOAPChangeSets.pm
-SHA1 8919c220c667a373fc17090f17c7d69504aa960b lib/Module/Install/DOAPChangeSets.pm
-SHA1 ad7575427fcfd6e841224b355427d5d0552c20ad lib/Module/Install/DOAPChangeSets/Format.pod
+SHA1 b64c00a7594324e3cd95ee9b33cad586394dcd83 lib/Module/Install/Admin/DOAPChangeSets.pm
+SHA1 5d830fdf8bb28916a656692b7fc7509bcd79c441 lib/Module/Install/DOAPChangeSets.pm
+SHA1 5d2d53ca8124a5b292a2b789db74834ebbf6a5d3 lib/Module/Install/DOAPChangeSets/Format.pod
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 96f6564abe26ca4feda5a4d2486fc9ccf01715aa t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAktHbV0ACgkQzr+BKGoqfTl+5wCfX1tH9a4mh+ofsHSVT0zWKEV4
-5FIAn3HEL2p8JjgocTW2FjcXlituO1wB
-=lHL5
+iEYEARECAAYFAktHfEAACgkQzr+BKGoqfTlLJgCeNLGdnozzzmGWF7uts9GgUemN
+VSEAnjAfqLLhUS1SgjkZ7zCooqcxC2Q/
+=BLiw
 -----END PGP SIGNATURE-----

@@ -36,7 +36,7 @@ a minimum, you must set the dc:subject.
 Use DOAP to describe the first version of the distribution. At the very
 least you need to include its revision (version number):
 
-  my:v_0.01
+  my:v_0_01
     a           :Version ;
     dc:issued   "2007-12-20"^^xsd:date ;
     :revision   "0.01"^^xsd:string .
@@ -48,7 +48,7 @@ nothing has been changed.
 
 For subsequent releases, you add a changeset to a release description:
 
-  my:v_0.02
+  my:v_0_02
     a           :Version ;
     dc:issued   "2007-12-29"^^xsd:date ;
     :revision   "0.02"^^xsd:string ;
@@ -78,7 +78,7 @@ of other properties in DOAP which you can also use.
     :maintainer my:developer ;
     :homepage   <http://search.cpan.example.org/dist/Example-Example/> ;
     :bug-database <http://rt.cpan.example.org/Dist/Display.html?Queue=Example-Example> ;
-    :release    my:v_0.01 , my:v_0.02 .
+    :release    my:v_0_01 , my:v_0_02 .
 
 =head2 Describing a Developer
 

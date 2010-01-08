@@ -12,3 +12,6 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.00_01 [2010-01-08] # Omega 1
 
+0.00_02 [2010-01-08] # Omega 2
+ - Don't recommend QNames containing '.' -- they're supported by libraptor, but illegal in Turtle.
+

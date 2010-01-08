@@ -20,7 +20,7 @@
 
 #############################################################
 
-my:v_0.00_01
+my:v_0_00_01
 
 	a               :Version ;
 	dc:issued       "2010-01-08"^^xsd:date ;
@@ -28,6 +28,19 @@ my:v_0.00_01
 	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_01.tar.gz> ;
 	rdfs:label      "Omega 1" ;
 	rdfs:comment    "Developer preview."@en .
+
+my:v_0_00_02
+
+	a               :Version ;
+	dc:issued	"2010-01-08"^^xsd:date ;
+	:revision	"0.00_02"^^xsd:string ;
+	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_02.tar.gz> ;
+	rdfs:label	"Omega 2" ;
+	rdfs:comment    "Developer preview."@en ;
+	dcs:changeset [
+		dcs:item [ rdfs:label "Don't recommend QNames containing '.' -- they're supported by libraptor, but illegal in Turtle."@en ]
+	] .
+
 
 #############################################################
 
@@ -47,7 +60,7 @@ my:project
 	:tester         toby:i ;
 	:created        "2010-01-08"^^xsd:date ;
 	:license        <http://dev.perl.org/licenses/> ;
-	:release        my:v_0.00_01 .
+	:release        my:v_0_00_01 , my:v_0_00_02 .
 
 #############################################################
 
