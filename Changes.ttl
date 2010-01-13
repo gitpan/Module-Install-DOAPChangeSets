@@ -59,6 +59,20 @@ my:v_0_00_03
 			[ rdfs:label "Use Text::Wrap to wrap text."@en ; a dcs:Addition ]
 	] .
 
+my:v_0_00_04
+
+	a               :Version ;
+	dc:issued       "2010-01-13"^^xsd:date ;
+	:revision       "0.00_04"^^xsd:string ;
+	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_04.tar.gz> ;
+	rdfs:label      "Omega 4" ;
+	rdfs:comment    "Developer preview."@en ;
+	dcs:changeset [
+		dcs:versus my:v_0_00_03 ;
+		dcs:item
+			[ rdfs:label "Split out RDF::DOAP::ChangeSets as a separate Perl module."@en ]
+	] .
+
 
 #############################################################
 
