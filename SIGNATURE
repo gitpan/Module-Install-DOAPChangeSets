@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a96f7a1ecb8d774b3a9c31e660d471ab321a438a Changes
-SHA1 4105fdbad4000e491c5dd8c18953f2c4bcf22494 Changes.ttl
-SHA1 c5a16be6e4f1d9a73dec3625e825d4968ba0ae43 Changes.xml
+SHA1 cdbf53b7fc29ccee3cf9cf5579789d2b47c21e2d Changes
+SHA1 fa28698080857cb9187872f1860fb031eb71731d Changes.ttl
+SHA1 63d56c8fe029e1e2143c9f0abe0bfc78176edca6 Changes.xml
 SHA1 80227a2dbd5cd307e54b472440fb558d1f3297ea MANIFEST
 SHA1 28817ddce2c975015b983e0c5bfe5dfb9f44532a MANIFEST.SKIP
-SHA1 b77be95465b9f6739e709eaf12b368f4ffe2b8ae META.yml
+SHA1 f294a57ea2c7ba29c40b3bde090720aa1e104dda META.yml
 SHA1 664be7ec14ca80ab768f111ade9d1ff203468c64 Makefile.PL
 SHA1 bd66c55840fb8fe4f2f1639873d797920b897224 README
 SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
@@ -36,16 +36,16 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
 SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 e054d47b773acad66a40123f9182988e00752590 lib/Module/Install/Admin/DOAPChangeSets.pm
-SHA1 2ae8238146a8ec8ffaa1a80426df4d3542001af6 lib/Module/Install/DOAPChangeSets.pm
+SHA1 3785484ce7ab0278b94f4ad1b5bbb495b941f5bc lib/Module/Install/Admin/DOAPChangeSets.pm
+SHA1 c8096cebbc8d3929d1b16e4b25475724655af572 lib/Module/Install/DOAPChangeSets.pm
 SHA1 fad51368672a294bf741240fad0d695a16f457db lib/Module/Install/DOAPChangeSets/Format.pod
-SHA1 09384fbce6c7de7ec1a0a0329805896d83f97246 lib/RDF/DOAP/ChangeSets.pm
+SHA1 33a83a9c339685990b1e44d3648dfbfeeff022f5 lib/RDF/DOAP/ChangeSets.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 96f6564abe26ca4feda5a4d2486fc9ccf01715aa t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAktU6l0ACgkQzr+BKGoqfTnAagCgj2YrqaRwxbOX49P31YdeYhvC
-FgwAoLD1uOoLquQ4BdHTscksE38fyHXx
-=Q7HS
+iEYEARECAAYFAktgYcwACgkQzr+BKGoqfTlBJQCfXAJvAdWPV1RGBv61Q+E3M/mM
+mW0Anj8y9lwefEG7PfT0dtYIzJFfbTOR
+=EUj1
 -----END PGP SIGNATURE-----
