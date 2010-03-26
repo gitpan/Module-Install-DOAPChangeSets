@@ -14,20 +14,20 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 cdbf53b7fc29ccee3cf9cf5579789d2b47c21e2d Changes
-SHA1 fa28698080857cb9187872f1860fb031eb71731d Changes.ttl
-SHA1 63d56c8fe029e1e2143c9f0abe0bfc78176edca6 Changes.xml
+SHA1 ba548950de7018eb7c8c73a1dbcfe83545816b79 Changes
+SHA1 341f3fde589b1bdbff76792f903fa1252abe9a5c Changes.ttl
+SHA1 46bd6fc4e0d779db8d5a02f59a290781bbd89a00 Changes.xml
 SHA1 80227a2dbd5cd307e54b472440fb558d1f3297ea MANIFEST
 SHA1 28817ddce2c975015b983e0c5bfe5dfb9f44532a MANIFEST.SKIP
-SHA1 f294a57ea2c7ba29c40b3bde090720aa1e104dda META.yml
-SHA1 664be7ec14ca80ab768f111ade9d1ff203468c64 Makefile.PL
-SHA1 bd66c55840fb8fe4f2f1639873d797920b897224 README
+SHA1 e649304ef71aac1bbf9325697fc7d99dbcd28a6e META.yml
+SHA1 b80b3d607a046296b9579a37f14b202b6f979e64 Makefile.PL
+SHA1 56ab5e803ae8a35153854e4e4eb43964c21e7ddd README
 SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
 SHA1 fd5f3c4f0418efee3b9b16cf8c3902e8374909df inc/Module/Install.pm
 SHA1 5c529e96420d964b192f011b121283a4916f7331 inc/Module/Install/AutoInstall.pm
 SHA1 7cd7c349afdf3f012e475507b1017bdfa796bfbd inc/Module/Install/Base.pm
 SHA1 ba186541bbf6439111f01fc70769cf24d22869bf inc/Module/Install/Can.pm
-SHA1 a80bda1e4bcc807c60871bd4e4e0304388fa23db inc/Module/Install/DOAPChangeSets.pm
+SHA1 73a28c770d5e9324eaa586f03252c5a8a6f3c941 inc/Module/Install/DOAPChangeSets.pm
 SHA1 aaa50eca0d7751db7a4d953fac9bc72c6294e238 inc/Module/Install/Fetch.pm
 SHA1 219da5a95c290312a81477b226f005997d97dcfd inc/Module/Install/Include.pm
 SHA1 3e83972921d54198d1246f7278f08664006cd65d inc/Module/Install/Makefile.pm
@@ -36,16 +36,16 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
 SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 3785484ce7ab0278b94f4ad1b5bbb495b941f5bc lib/Module/Install/Admin/DOAPChangeSets.pm
-SHA1 c8096cebbc8d3929d1b16e4b25475724655af572 lib/Module/Install/DOAPChangeSets.pm
+SHA1 1f3ea5edb6da4f1238893da0e5a6be02d2c468fc lib/Module/Install/Admin/DOAPChangeSets.pm
+SHA1 c266276bffd942d4da4399bdbb2d0ad59b9e7a45 lib/Module/Install/DOAPChangeSets.pm
 SHA1 fad51368672a294bf741240fad0d695a16f457db lib/Module/Install/DOAPChangeSets/Format.pod
-SHA1 33a83a9c339685990b1e44d3648dfbfeeff022f5 lib/RDF/DOAP/ChangeSets.pm
+SHA1 c1eccc03baf47d512fd93e3ecf36f77b328f68d2 lib/RDF/DOAP/ChangeSets.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 96f6564abe26ca4feda5a4d2486fc9ccf01715aa t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAktgYcwACgkQzr+BKGoqfTlBJQCfXAJvAdWPV1RGBv61Q+E3M/mM
-mW0Anj8y9lwefEG7PfT0dtYIzJFfbTOR
-=EUj1
+iEYEARECAAYFAkus50kACgkQzr+BKGoqfTn7mwCffd2LyLsuosOTbkqjZiA/33xk
+OIMAnixGU6BSoDJTOnYSvx1/fA/myJ3p
+=C88F
 -----END PGP SIGNATURE-----

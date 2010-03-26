@@ -25,7 +25,7 @@ my:v_0_00_01
 	a               :Version ;
 	dc:issued       "2010-01-08"^^xsd:date ;
 	:revision       "0.00_01"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_01.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_01.tar.gz> ;
 	rdfs:label      "Omega 1" ;
 	rdfs:comment    "Developer preview."@en .
 
@@ -34,7 +34,7 @@ my:v_0_00_02
 	a               :Version ;
 	dc:issued	"2010-01-08"^^xsd:date ;
 	:revision	"0.00_02"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_02.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_02.tar.gz> ;
 	rdfs:label	"Omega 2" ;
 	rdfs:comment    "Developer preview."@en ;
 	dcs:changeset [
@@ -48,7 +48,7 @@ my:v_0_00_03
 	a               :Version ;
 	dc:issued	"2010-01-11"^^xsd:date ;
 	:revision	"0.00_03"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_03.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_03.tar.gz> ;
 	rdfs:label	"Omega 3" ;
 	rdfs:comment    "Developer preview."@en ;
 	dcs:changeset [
@@ -64,7 +64,7 @@ my:v_0_00_04
 	a               :Version ;
 	dc:issued       "2010-01-13"^^xsd:date ;
 	:revision       "0.00_04"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_04.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.00_04.tar.gz> ;
 	rdfs:label      "Omega 4" ;
 	rdfs:comment    "Developer preview."@en ;
 	dcs:changeset [
@@ -78,7 +78,7 @@ my:v_0_01
 	a               :Version ;
 	dc:issued       "2010-01-18"^^xsd:date ;
 	:revision       "0.01"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.01.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.01.tar.gz> ;
 	rdfs:comment    "First vaguely stable release."@en ;
 	dcs:changeset [
 		dcs:versus my:v_0_00_04 ;
@@ -91,11 +91,23 @@ my:v_0_02
 	a               :Version ;
 	dc:issued       "2010-01-27"^^xsd:date ;
 	:revision       "0.02"^^xsd:string ;
-	:file-release   <http://backpan.perl.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.02.tar.gz> ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.02.tar.gz> ;
 	dcs:changeset [
 		dcs:versus my:v_0_01 ;
 		dcs:item
 			[ rdfs:label "Project name was being overridden by URI."@en ; a dcs:Bugfix ]
+	] .
+
+my:v_0_03
+
+	a               :Version ;
+	dc:issued       "2010-03-26"^^xsd:date ;
+	:revision       "0.03"^^xsd:string ;
+	:file-release   <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.03.tar.gz> ;
+	dcs:changeset [
+		dcs:versus my:v_0_02 ;
+		dcs:item
+			[ rdfs:label "Use Perl::Version to sort revisions in output."@en ]
 	] .
 
 
@@ -105,7 +117,7 @@ my:project
 
 	a               :Project ;
 	:name           "Module-Install-DOAPChangeSets" ;
-	:shortdesc      "Write your distribution change log in RDF"@en ;
+	:shortdesc      "write your distribution change log in RDF"@en ;
 	:programming-language  "Perl" ;
 	:homepage       <http://search.cpan.org/dist/Module-Install-DOAPChangeSets/> ;
 	:download-page  <http://search.cpan.org/dist/Module-Install-DOAPChangeSets/> ;
@@ -118,7 +130,7 @@ my:project
 	:created        "2010-01-08"^^xsd:date ;
 	:license        <http://dev.perl.org/licenses/> ;
 	:release        my:v_0_00_01 , my:v_0_00_02 , my:v_0_00_03 , my:v_0_00_04 , 
-	                my:v_0_01 , my:v_0_02 .
+	                my:v_0_01 , my:v_0_02 , my:v_0_03 .
 
 #############################################################
 
