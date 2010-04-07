@@ -14,12 +14,12 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ba548950de7018eb7c8c73a1dbcfe83545816b79 Changes
-SHA1 341f3fde589b1bdbff76792f903fa1252abe9a5c Changes.ttl
-SHA1 46bd6fc4e0d779db8d5a02f59a290781bbd89a00 Changes.xml
+SHA1 25aa7d4533eb0d882427d3f7a76e44ea12ba5ddb Changes
+SHA1 0e0d51313cb2f4596b4270d5d6ec8af212a3f6d9 Changes.ttl
+SHA1 37464ee1ede6cdcffbea66af43c30bea8d7aa872 Changes.xml
 SHA1 80227a2dbd5cd307e54b472440fb558d1f3297ea MANIFEST
-SHA1 28817ddce2c975015b983e0c5bfe5dfb9f44532a MANIFEST.SKIP
-SHA1 e649304ef71aac1bbf9325697fc7d99dbcd28a6e META.yml
+SHA1 f5e0e1a1bb5bd5e30043a2123bf757fa648bedf8 MANIFEST.SKIP
+SHA1 7bdfdcad9d2fd879f5a5b18d217dbfe2eaba1952 META.yml
 SHA1 b80b3d607a046296b9579a37f14b202b6f979e64 Makefile.PL
 SHA1 56ab5e803ae8a35153854e4e4eb43964c21e7ddd README
 SHA1 e5fb92ac217988bfc7a6af739b0459627020a27e inc/Module/AutoInstall.pm
@@ -36,16 +36,16 @@ SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.p
 SHA1 f7ee667e878bd2faf22ee9358a7b5a2cc8e91ba4 inc/Module/Install/Win32.pm
 SHA1 8ed29d6cf217e0977469575d788599cbfb53a5ca inc/Module/Install/WriteAll.pm
 SHA1 1e6399a0585817abef500c34fce676fb9b0545f0 inc/Test/Signature.pm
-SHA1 1f3ea5edb6da4f1238893da0e5a6be02d2c468fc lib/Module/Install/Admin/DOAPChangeSets.pm
-SHA1 c266276bffd942d4da4399bdbb2d0ad59b9e7a45 lib/Module/Install/DOAPChangeSets.pm
-SHA1 fad51368672a294bf741240fad0d695a16f457db lib/Module/Install/DOAPChangeSets/Format.pod
-SHA1 c1eccc03baf47d512fd93e3ecf36f77b328f68d2 lib/RDF/DOAP/ChangeSets.pm
+SHA1 a6be86a7be9c9123e5bbf7a54175d4ab22d94286 lib/Module/Install/Admin/DOAPChangeSets.pm
+SHA1 9ef6b8660249b801bc4d08fa42078f786de294f9 lib/Module/Install/DOAPChangeSets.pm
+SHA1 1b1938763dff70fc5ea19b8405753cf4d89ca660 lib/Module/Install/DOAPChangeSets/Format.pod
+SHA1 2ffa9a3126e8dea3845f7929bc67c46bbdd83f7e lib/RDF/DOAP/ChangeSets.pm
 SHA1 bb128dce2db8ad397dbeb957d79d084cc5d2391a t/00sig.t
 SHA1 96f6564abe26ca4feda5a4d2486fc9ccf01715aa t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkus50kACgkQzr+BKGoqfTn7mwCffd2LyLsuosOTbkqjZiA/33xk
-OIMAnixGU6BSoDJTOnYSvx1/fA/myJ3p
-=C88F
+iEYEARECAAYFAku8e7EACgkQzr+BKGoqfTkfRwCfXUuw5Yzscc/YfiALm7Yw92fl
+AhMAn36FttJJi+mPhDjcmaHHy4ZAKSsh
+=Sejp
 -----END PGP SIGNATURE-----
