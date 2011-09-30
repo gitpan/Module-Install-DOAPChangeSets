@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 1.00'
+generated_by: 'Module::Install version 1.02'
 keywords:
   - RDF
   - 'Semantic Web'
@@ -36,7 +36,7 @@ requires:
   perl: 5.8.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets
-  homepage: http://search.cpan.org/dist/Module-Install-DOAPChangeSets/
+  homepage: https://metacpan.org/release/Module-Install-DOAPChangeSets
   license: http://dev.perl.org/licenses/
-  repository: http://goddamn.co.uk/viewvc/perlmods/Module-Install-DOAPChangeSets/
-version: 0.102
+  repository: http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-DOAPChangeSets/
+version: 0.103

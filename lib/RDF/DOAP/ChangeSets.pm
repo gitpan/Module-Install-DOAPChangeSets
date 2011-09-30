@@ -30,7 +30,7 @@ use RDF::Trine;
 use RDF::Query;
 use Text::Wrap;
 
-our $VERSION = '0.102';
+our $VERSION = '0.103';
 
 =head1 DESCRIPTION
 
@@ -230,14 +230,14 @@ sub to_string
 		{
 			# Version number, release data and version name.
 			$rv.= $version->{'revision'};
-			$rv.= sprintf(' [%s]', $version->{'issued'})
+			$rv.= sprintf('  %s', $version->{'issued'})
 				if $version->{'issued'};
-			$rv.= sprintf(' # %s', $version->{'name'})
+			$rv.= sprintf("\n# %s", $version->{'name'})
 				if $version->{'name'};
-			$rv.= "\n";
+			$rv.= "\n\n";
 			
 			my @changes = sort {
-				$a->{type} cmp $b->{type} || $a->{label} cmp $b->{label}
+				$a->{type} cmp $b->{type} or $a->{label} cmp $b->{label}
 				} values %{$version->{'c'}};
 			
 			# foreach change
@@ -589,7 +589,7 @@ Please report any bugs to L<http://rt.cpan.org/>.
 
 =head1 SEE ALSO
 
-L<RDF::Trine>, L<Module::Install::DOAPChangeSets>.
+L<RDF::Trine>, L<CPAN::Changes::Spec>, L<Module::Install::DOAPChangeSets>.
 
 L<http://www.perlrdf.org/>.
 
@@ -599,7 +599,7 @@ Toby Inkster E<lt>tobyink@cpan.orgE<gt>.
 
 =head1 COPYRIGHT
 
-Copyright 2010 Toby Inkster
+Copyright 2010-2011 Toby Inkster
 
 This library is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
