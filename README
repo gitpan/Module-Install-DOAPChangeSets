@@ -28,6 +28,12 @@ DESCRIPTION
 
       write_doap_changes_xml "meta/changes.ttl", "Changes.xml", "turtle";
 
+  Integration with Module::Install::RDF
+    Module::Install::RDF reads all the RDF it can find in 'meta'. If you
+    invoke Module::Install::RDF before invoking
+    Module::Install::DOAPChangeSets, then this module will use
+    Module::Install::RDF's copy of the data.
+
 WHY?
     Why not?
 
@@ -35,7 +41,8 @@ BUGS
     Please report any bugs to <http://rt.cpan.org/>.
 
 SEE ALSO
-    Module::Install, Module::Install::DOAPChangeSets::Format .
+    Module::Install, Module::Install::DOAPChangeSets::Format ,
+    Module::Install::RDF.
 
     <http://www.perlrdf.org/>.
 

@@ -14,39 +14,40 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 5dfdc1945f3d6d7c37c9681829d3bbbfc3c4395c Changes
+SHA1 9989cd8d40e9cde6211730d1bf224c6a970f195d Changes
 SHA1 f3296a09eb07898f3ba6dd0ece615dafc1b57e16 LICENSE
-SHA1 d95899f2ef2dc45e58efba981e1531fc48ffa136 MANIFEST
-SHA1 311a15842ae79c5278a1755a16514abf01da6b46 MANIFEST.SKIP
-SHA1 c43dc9eeddb6e5fb29d6173b762b7bc8f0e99c08 META.yml
-SHA1 11f33af2bceb3d7b6f1e132e53408b38cafac627 Makefile.PL
-SHA1 bbd2a3af143c2266424bdabd7c1477599de25bb7 README
+SHA1 777fd4125ff9fd6c657f3813106a206e24905d27 MANIFEST
+SHA1 d5ad34bd638bb32591e07843bb24c6006734d19d META.yml
+SHA1 5391cc35db658809505db2be59d47aa2f073c376 Makefile.PL
+SHA1 b15de247c9e887962b5c884bc8d6b84364c2d768 README
 SHA1 23c9bcd43a9385f0195d8c40c00f4fb0f675ddc9 TODO
 SHA1 5d94bc10deff1dd74e4bc5dfa6fc015e39271f15 inc/Module/AutoInstall.pm
 SHA1 40106479d4e07f379cb82ca1d69fca92e3a40f47 inc/Module/Install.pm
 SHA1 34a24a530ecf0365cc02e4150b06c9bed702a441 inc/Module/Install/AutoInstall.pm
-SHA1 b0ea9f3fc94eaec503b247ff4bbdc9fc91963727 inc/Module/Install/AutoLicense.pm
 SHA1 c04f94f91fa97b9f8cfb5a36071098ab0e6c78e3 inc/Module/Install/AutoManifest.pm
 SHA1 ae8aa01a73cb83da31c39e8eed1120c59cb530a1 inc/Module/Install/Base.pm
 SHA1 5c87d2d0e2c08b5173259006c88ad81c24303f9d inc/Module/Install/Can.pm
-SHA1 1801e5a072594b4c24ee6d248755d2b5485a0037 inc/Module/Install/DOAPChangeSets.pm
 SHA1 98daf9d8c50b4b7e8988cf1fa2b86044ad219533 inc/Module/Install/Fetch.pm
 SHA1 f3e008113f7f49b0625083b6cc358a312854f613 inc/Module/Install/Include.pm
 SHA1 e67589fcbacdda6c98ff34d8e26a004ab0467bdc inc/Module/Install/Makefile.pm
 SHA1 209ea405d4ab94475661bb450d0ea042d2ec25b5 inc/Module/Install/Metadata.pm
-SHA1 a615bb050ca0b2d79bfa0224addcb83019a53b09 inc/Module/Install/ReadmeFromPod.pm
+SHA1 340cb74b460e3bbbd121ca38d317c562ed783a2d inc/Module/Install/Package.pm
 SHA1 1326052d1df1065debee74f9d8583a734b9b3d00 inc/Module/Install/Win32.pm
 SHA1 bb607f3715c40fc3bc1c46496587cdb215bc4fa2 inc/Module/Install/WriteAll.pm
-SHA1 55f960938cfa954f080b2d64066a925747ae8d9a lib/Module/Install/Admin/DOAPChangeSets.pm
-SHA1 bab86d256b15956cfa62e1ea9015807923116d75 lib/Module/Install/DOAPChangeSets.pm
+SHA1 59e3340c94ee95c1e443b7a869f97f9f46839fc2 inc/Module/Package.pm
+SHA1 1e6ba2ab89840266f72ad4d22c1b8bb1af389c0d lib/Module/Install/Admin/DOAPChangeSets.pm
+SHA1 e9170e63d186b6915a658ff1ea69def1e86c7d49 lib/Module/Install/DOAPChangeSets.pm
 SHA1 f6a22491a24f8ecaa16044b220b24bbd34907cfa lib/Module/Install/DOAPChangeSets/Format.pod
-SHA1 6454011d229a812657d0a0df04ad076cea746201 lib/RDF/DOAP/ChangeSets.pm
-SHA1 a4f21059508a750569fa4af1cf5aa47597373f50 meta/changes.ttl
+SHA1 8956c0d155f5c5d6d47d4ee8a3d20b800bca14d1 lib/RDF/DOAP/ChangeSets.pm
+SHA1 8c72882f9b87f6edffbb7ff9b74eb11520b8c176 meta/changes.ttl
+SHA1 6940ca387a65a68af0cf232461109d9352833785 meta/deps.ttl
+SHA1 ea412a2d11264f5c4b0a35eda319fc46399fe080 meta/doap.ttl
+SHA1 8628d56a87f838ba9030ea4a1c56795d7f2bc25c meta/makefile.ttl
 SHA1 96f6564abe26ca4feda5a4d2486fc9ccf01715aa t/01basic.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk6FvKgACgkQzr+BKGoqfTn+hgCdG9OScAF/NYjaReSb+7TdP1Dg
-OaMAoJNiG1ew/3hhIBwgqBhDwOBZefE+
-=bCEd
+iEYEARECAAYFAk6HV8kACgkQzr+BKGoqfTkvhwCcD7N8cJSpchx87EMMkjdYNWzx
+1wsAnAyz2sf5pFd8DHo7poMMqtz+fiax
+=ZHrt
 -----END PGP SIGNATURE-----

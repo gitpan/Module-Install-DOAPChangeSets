@@ -10,16 +10,17 @@ configure_requires:
 distribution_type: module
 generated_by: 'Module::Install version 1.02'
 keywords:
+  - 'Change Log'
+  - Changes
+  - DOAP
+  - Packaging
   - RDF
   - 'Semantic Web'
-  - CPAN
-  - DOAP
-  - Perl
-  - Changes
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: Module::Install::DOAPChangeSets
 name: Module-Install-DOAPChangeSets
 no_index:
   directory:
@@ -28,15 +29,16 @@ no_index:
 requires:
   File::Slurp: 0
   LWP::Simple: 0
+  Module::Install: 1.00
   Perl::Version: 0
   RDF::Query: 2.200
   RDF::Trine: 0.112
   Text::Wrap: 0
-  URI::file: 0
+  URI::file: 4.0
   perl: 5.8.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets
   homepage: https://metacpan.org/release/Module-Install-DOAPChangeSets
   license: http://dev.perl.org/licenses/
   repository: http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-DOAPChangeSets/
-version: 0.103
+version: 0.200

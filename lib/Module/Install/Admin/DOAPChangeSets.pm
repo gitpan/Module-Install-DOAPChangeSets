@@ -10,13 +10,13 @@ use File::Slurp qw(slurp);
 use URI::file;
 use Module::Install::Base;
 
-our $VERSION = '0.103';
+our $VERSION = '0.200';
 
 sub _make_dcs
 {
 	my ($self, $in, $fmt, $type) = @_;
 
-	unless (defined $self->{_DOAPChangeSets})
+	unless (defined $self->{DCS})
 	{
 		my @files_to_try = qw[meta/changes.ttl Changes.ttl];
 		while (!defined $in)
@@ -28,18 +28,22 @@ sub _make_dcs
 		
 		my $inuri = URI::file->new_abs($in);
 		
-		if (defined $self->{_RDF})
+		my $model = eval {
+			require Module::Install::Admin::RDF;
+			Module::Install::Admin::RDF::rdf_metadata($self);
+			};
+		if (defined $model)
 		{
-			$self->{_DOAPChangeSets} = RDF::DOAP::ChangeSets->new($inuri, $self->{_RDF});
+			$self->{DCS} = RDF::DOAP::ChangeSets->new($inuri, $model);
 		}
 		else
 		{
 			my $data = slurp($in);
-			$self->{_DOAPChangeSets} = RDF::DOAP::ChangeSets->new($inuri, undef, $type, $fmt);
+			$self->{DCS} = RDF::DOAP::ChangeSets->new($inuri, undef, $type, $fmt);
 		}
 	}
 	
-	return $self->{_DOAPChangeSets};
+	return $self->{DCS};
 }
 
 sub write_doap_changes

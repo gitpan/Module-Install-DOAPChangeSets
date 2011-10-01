@@ -4,7 +4,7 @@ use 5.008;
 use base qw(Module::Install::Base);
 use strict;
 
-our $VERSION = '0.103';
+our $VERSION = '0.200';
 our $AUTHOR_ONLY = 1;
 
 sub write_doap_changes {
@@ -49,6 +49,12 @@ There's also a line you can use to output a Changes.xml file:
 
   write_doap_changes_xml "meta/changes.ttl", "Changes.xml", "turtle";
 
+=head2 Integration with Module::Install::RDF
+
+L<Module::Install::RDF> reads all the RDF it can find in 'meta'. If you invoke
+Module::Install::RDF before invoking Module::Install::DOAPChangeSets, then 
+this module will use Module::Install::RDF's copy of the data.
+
 =head1 WHY?
 
 Why not?
@@ -59,7 +65,8 @@ Please report any bugs to L<http://rt.cpan.org/>.
 
 =head1 SEE ALSO
 
-L<Module::Install>, L<Module::Install::DOAPChangeSets::Format> .
+L<Module::Install>, L<Module::Install::DOAPChangeSets::Format> ,
+L<Module::Install::RDF>.
 
 L<http://www.perlrdf.org/>.
 

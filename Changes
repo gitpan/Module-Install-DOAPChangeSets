@@ -1,7 +1,3 @@
-############################################################################
-## Changes #################################################################
-############################################################################
-
 Module-Install-DOAPChangeSets
 =============================
 
@@ -9,6 +5,14 @@ Created:      2010-01-08
 Home page:    <https://metacpan.org/release/Module-Install-DOAPChangeSets>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
+
+0.200  2011-10-01
+
+ - Will use data from Module::Install::RDF in favour of 'meta/changes.ttl',
+   if 'rdf_metadata' has been called prior to 'write_doap_changes'.
+ - (Removal) No longer produces top heading for Changes file: just a
+   smaller heading for each project. (And there will rarely be more than
+   one project described.)
 
 0.103  2011-09-30
 
@@ -54,9 +58,9 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 # Omega 3
 
  - Reverse order of versions in Changelog (newest at top)
- - (Addition) Use Text::Wrap to wrap text.
  - (Addition) Support Aaron Cope's changefile vocab as a legacy input
    format.
+ - (Addition) Use Text::Wrap to wrap text.
 
 0.00_02  2010-01-08
 # Omega 2

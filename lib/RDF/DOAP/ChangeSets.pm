@@ -30,7 +30,7 @@ use RDF::Trine;
 use RDF::Query;
 use Text::Wrap;
 
-our $VERSION = '0.103';
+our $VERSION = '0.200';
 
 =head1 DESCRIPTION
 
@@ -70,7 +70,7 @@ sub new
 	my $inuri = shift;
 	my $data  = shift;
 	my $type  = shift || 'auto';
-	
+
 	my $model;
 	if (ref $data and $data->isa('RDF::Trine::Model'))
 	{
@@ -179,10 +179,10 @@ sub to_string
 	# Get project data for all projects described in the model.
 	$self->_project_data;
 	
-	# Heading
-	$rv.= "#" x 76 . "\n";
-	$rv.= "## " . $self->{'doctitle'} . " " . ("#" x (72 - length $self->{'doctitle'})) . "\n";
-	$rv.= "#" x 76 . "\n\n";
+#	# Heading
+#	$rv.= "#" x 76 . "\n";
+#	$rv.= "## " . $self->{'doctitle'} . " " . ("#" x (72 - length $self->{'doctitle'})) . "\n";
+#	$rv.= "#" x 76 . "\n\n";
 	
 	# Create a shortcut to the data.
 	my $projects = $self->{'projects'};	
