@@ -6,6 +6,10 @@ Home page:    <https://metacpan.org/release/Module-Install-DOAPChangeSets>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.201  2011-10-06
+
+ - (Packaging) Upgrade Module::Package::RDF version.
+
 0.200  2011-10-01
 
  - Will use data from Module::Install::RDF in favour of 'meta/changes.ttl',
@@ -58,9 +62,9 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 # Omega 3
 
  - Reverse order of versions in Changelog (newest at top)
+ - (Addition) Use Text::Wrap to wrap text.
  - (Addition) Support Aaron Cope's changefile vocab as a legacy input
    format.
- - (Addition) Use Text::Wrap to wrap text.
 
 0.00_02  2010-01-08
 # Omega 2
