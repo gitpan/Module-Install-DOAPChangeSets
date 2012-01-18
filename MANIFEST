@@ -32,5 +32,4 @@ meta/doap.ttl
 meta/makefile.ttl
 README
 t/01basic.t
-TODO
 SIGNATURE                                Public-key signature (added by MakeMaker)

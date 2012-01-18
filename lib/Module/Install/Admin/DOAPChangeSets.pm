@@ -1,7 +1,7 @@
 package Module::Install::Admin::DOAPChangeSets;
 
 use 5.008;
-use base qw(Module::Install::Base);
+use parent qw(Module::Install::Base);
 use strict;
 
 use RDF::DOAP::ChangeSets;
@@ -10,7 +10,7 @@ use File::Slurp qw(slurp);
 use URI::file;
 use Module::Install::Base;
 
-our $VERSION = '0.201';
+our $VERSION = '0.202';
 
 sub _make_dcs
 {
