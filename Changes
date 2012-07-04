@@ -6,20 +6,27 @@ Home page:    <https://metacpan.org/release/Module-Install-DOAPChangeSets>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.203  2012-07-04
+
+ - (Addition) Support 'dcs:thanks'.
+   ++$KJETILK
+ - When Module::Install::RDF is in use, then don't complain about missing
+   files.
+
 0.202  2012-01-18
 
- - ADDITION: Support 'dcs:blame'.
+ - (Addition) Support 'dcs:blame'.
  - Improved sort order of change items within each version.
 
 0.201  2011-10-06
 
- - PACKAGING: Upgrade Module::Package::RDF version.
+ - (Packaging) Upgrade Module::Package::RDF version.
 
 0.200  2011-10-01
 
- - REMOVAL: No longer produces top heading for Changes file: just a smaller
-   heading for each project. (And there will rarely be more than one
-   project described.)
+ - (Removal) No longer produces top heading for Changes file: just a
+   smaller heading for each project. (And there will rarely be more than
+   one project described.)
  - Will use data from Module::Install::RDF in favour of 'meta/changes.ttl',
    if 'rdf_metadata' has been called prior to 'write_doap_changes'.
 
@@ -35,7 +42,7 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.101  2010-07-21
 
- - BUGFIX: XML output no longer just an empty file!
+ - (Bugfix) XML output no longer just an empty file!
 
 0.100  2010-07-18
 
@@ -44,7 +51,7 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.04  2010-04-07
 
- - UPDATE: Best practice is to use http://purl.org/NET/cpan-uri/.
+ - (Update) Best practice is to use http://purl.org/NET/cpan-uri/.
 
 0.03  2010-03-26
 
@@ -52,7 +59,7 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.02  2010-01-27
 
- - BUGFIX: Project name was being overridden by URI.
+ - (Bugfix) Project name was being overridden by URI.
 
 0.01  2010-01-18
 
@@ -64,9 +71,9 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
 0.00_03  2010-01-11  # Omega 3
 
- - ADDITION: Support Aaron Cope's changefile vocab as a legacy input
+ - (Addition) Support Aaron Cope's changefile vocab as a legacy input
    format.
- - ADDITION: Use Text::Wrap to wrap text.
+ - (Addition) Use Text::Wrap to wrap text.
  - Reverse order of versions in Changelog (newest at top)
 
 0.00_02  2010-01-08  # Omega 2

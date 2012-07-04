@@ -3,12 +3,13 @@ abstract: 'write your distribution change log in RDF'
 author:
   - 'Toby Inkster <tobyink@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
   Test::More: 0.61
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
-generated_by: 'Module::Install version 1.02'
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
 keywords:
   - 'Change Log'
   - Changes
@@ -26,12 +27,16 @@ no_index:
   directory:
     - inc
     - t
+recommends:
+  Module::Install::DOAP: 0
+  Module::Install::RDF: 0.006
+  Module::Package::RDF: 0
 requires:
   File::Slurp: 0
   LWP::Simple: 0
   Module::Install: 1.00
   Perl::Version: 0
-  RDF::Query: 2.200
+  RDF::Query: 2.906
   RDF::Trine: 0.112
   Text::Wrap: 0
   URI::file: 4.0
@@ -42,4 +47,4 @@ resources:
   homepage: https://metacpan.org/release/Module-Install-DOAPChangeSets
   license: http://dev.perl.org/licenses/
   repository: http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-DOAPChangeSets/
-version: 0.202
+version: 0.203

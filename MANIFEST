@@ -16,7 +16,7 @@ inc/Module/Install/WriteAll.pm
 inc/Module/Package.pm
 inc/Module/Package/Dist/RDF.pm
 inc/Scalar/Util.pm
-inc/Scalar/Util/PP.pm
+inc/unicore/Name.pm
 inc/YAML/Tiny.pm
 lib/Module/Install/Admin/DOAPChangeSets.pm
 lib/Module/Install/DOAPChangeSets.pm
