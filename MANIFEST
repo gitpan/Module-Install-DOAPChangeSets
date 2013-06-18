@@ -1,4 +1,6 @@
 Changes
+COPYRIGHT
+CREDITS
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -15,8 +17,6 @@ inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 inc/Module/Package.pm
 inc/Module/Package/Dist/RDF.pm
-inc/Scalar/Util.pm
-inc/unicore/Name.pm
 inc/YAML/Tiny.pm
 lib/Module/Install/Admin/DOAPChangeSets.pm
 lib/Module/Install/DOAPChangeSets.pm
@@ -25,6 +25,7 @@ lib/RDF/DOAP/ChangeSets.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
+META.ttl
 META.yml
 meta/changes.ttl
 meta/deps.ttl
