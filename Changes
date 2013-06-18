@@ -6,6 +6,10 @@ Home page:    <https://metacpan.org/release/Module-Install-DOAPChangeSets>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.205  2013-06-18
+
+ - (Bugfix) Oops! That should be 'dcs:fixes'.
+
 0.204  2013-06-18
 
  - (Addition Bugfix) Support 'dbug:fixes'.
