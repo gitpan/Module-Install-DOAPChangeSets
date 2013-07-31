@@ -6,6 +6,11 @@ Home page:    <https://metacpan.org/release/Module-Install-DOAPChangeSets>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=Module-Install-DOAPChangeSets>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
+0.206  2013-07-31
+
+ - (Update) Minor changes to the release header now that
+   CPAN::Changes::Spec 0.02 has been published.
+
 0.205  2013-06-18
 
  - (Bugfix) Oops! That should be 'dcs:fixes'.
@@ -74,22 +79,22 @@ Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
  - Documentation improvements.
 
-0.00_04  2010-01-13  # Omega 4
+0.00_04  2010-01-13  Omega 4
 
  - Split out RDF::DOAP::ChangeSets as a separate Perl module.
 
-0.00_03  2010-01-11  # Omega 3
+0.00_03  2010-01-11  Omega 3
 
  - (Addition) Support Aaron Cope's changefile vocab as a legacy input
    format.
  - (Addition) Use Text::Wrap to wrap text.
  - Reverse order of versions in Changelog (newest at top)
 
-0.00_02  2010-01-08  # Omega 2
+0.00_02  2010-01-08  Omega 2
 
  - Don't recommend QNames containing '.' -- they're supported by libraptor,
    but illegal in Turtle.
 
-0.00_01  2010-01-08  # Omega 1
+0.00_01  2010-01-08  Omega 1
 
 

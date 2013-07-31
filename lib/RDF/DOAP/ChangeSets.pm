@@ -11,7 +11,7 @@ use RDF::Query;
 use Text::Wrap;
 use List::MoreUtils qw(uniq);
 
-our $VERSION = '0.205';
+our $VERSION = '0.206';
 
 sub new
 {
@@ -149,10 +149,8 @@ sub to_string
 		{
 			# Version number, release data and version name.
 			$rv.= $version->{'revision'};
-			$rv.= sprintf('  %s', $version->{'issued'})
-				if $version->{'issued'};
-			$rv.= sprintf("  # %s", $version->{'name'})
-				if $version->{'name'};
+			$rv.= sprintf('  %s', $version->{'issued'} ? $version->{'issued'} : 'Unknown');
+			$rv.= sprintf("  %s", $version->{'name'}) if $version->{'name'};
 			$rv.= "\n\n";
 			
 			my @changes = map
@@ -204,7 +202,7 @@ sub to_string
 		}
 		
 	}
-
+	
 	return $rv;
 }
 

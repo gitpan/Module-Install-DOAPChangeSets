@@ -62,6 +62,7 @@ dist:project
 	doap:release      dist:v_0-203;
 	doap:release      dist:v_0-204;
 	doap:release      dist:v_0-205;
+	doap:release      dist:v_0-206;
 	doap:repository   [
 		a doap:SVNRepository;
 		doap:browse <http://goddamn.co.uk/svn-web/perlmods/browse/Module-Install-DOAPChangeSets/>;
@@ -322,6 +323,19 @@ dist:v_0-205
 	];
 	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.205.tar.gz>;
 	doap:revision     "0.205"^^xsd:string.
+
+dist:v_0-206
+	a                 doap:Version;
+	dc:issued         "2013-07-31"^^xsd:date;
+	dcs:changeset     [
+		dcs:item [
+			a dcs:Update;
+			rdfs:label "Minor changes to the release header now that CPAN::Changes::Spec 0.02 has been published."@en;
+		];
+		dcs:versus dist:v_0-205;
+	];
+	doap:file-release <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Module-Install-DOAPChangeSets-0.206.tar.gz>;
+	doap:revision     "0.206"^^xsd:string.
 
 <http://tobyinkster.co.uk/#i>
 	a                 foaf:Person;
